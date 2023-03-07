@@ -1,0 +1,22 @@
+/*Program 3.1 : Write a program to find the sum of digits of a given number (Without User Input) */ 
+
+public class Program3{
+
+public static void main(String[] args){
+
+int a = 156, sum=0, digit=0;
+
+while(a>0){
+ digit = a%10;
+ sum +=digit;
+  a/=10;
+}
+
+System.out.println("Sum is " + sum);
+}
+}
+/* 
+PS C:\Users\student\Desktop\Krishna> javac Main3.java
+PS C:\Users\student\Desktop\Krishna> java Main3
+Sum is 12
+*/
