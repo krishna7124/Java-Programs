@@ -1,0 +1,38 @@
+/*Program 3.2 : Write a program to find the sum of digits of a given number (With User Input) */
+
+
+import java.util.Scanner;
+
+public class Main4{
+
+public static void main(String[] args){
+
+Scanner sc = new Scanner(System.in);
+
+int sum=0, digit=0;
+System.out.println("Enter a Number");
+int a=sc.nextInt();
+
+
+
+while(a>0){
+ digit = a%10;
+ sum +=digit;
+  a/=10;
+}
+
+System.out.println("Sum is " + sum);
+
+
+}
+
+}
+
+/* 
+PS C:\Users\student\Desktop\Krishna> javac Program3.java
+PS C:\Users\student\Desktop\Krishna> java Program3
+Enter a Number
+156
+Sum is 12
+
+*/
