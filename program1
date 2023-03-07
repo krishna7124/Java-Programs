@@ -1,0 +1,25 @@
+/* Program 1: Write a program to check whether two strings are equal or not. */
+
+public class Program1{
+
+public static void main(String[] args){
+
+String s1 = "Hello World";
+String s2 = "Hello WOrld";
+
+if(s1==s2){
+
+System.out.println("True");
+}
+else{
+System.out.println("False");
+
+}
+}
+}
+
+/* Ourput: 
+
+False
+
+*/
